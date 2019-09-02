@@ -1,0 +1,19 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "Learning vue.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyaelcastro/Vue.git"
+  },
+  "author": "Yael Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyaelcastro/Vue/issues"
+  },
+  "homepage": "https://github.com/cyaelcastro/Vue#readme"
+}
