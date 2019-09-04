@@ -1,14 +1,20 @@
 new Vue ({
     el:"#vue-app",
     data: {
-        name: "Yael",
-        job: "Programmer",
-        website: "http://www.thenetninja.co.uk",
-        websiteTag: "<a href='http://www.thenetninja.co.uk'>The net ninja</a>"
+        age: 24,
+        x: 0,
+        y: 0
     },
     methods: {
-        greet: function(time){
-            return "Good " + time + " " + this.name
+        add: function(inc){
+            this.age += inc;
+        },
+        subtract: function(dec){
+            this.age -= dec;
+        },
+        updateXY: function(event){
+            this.x = event.offsetX;
+            this.y = event.offsetY;
         }
     }
 })
